@@ -6,7 +6,7 @@ body{
 .listOb{
   width: 60%;
   height: 350px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 20px;
 
 }
@@ -34,14 +34,20 @@ body{
 
 /* Nipote */
 .boxSconto{
-  background-color: green;
   position: absolute;
   right: 0;
   top: 0;
   z-index: 3;  /* Lo z-Index mi tiene lo sconto sempre visualizzato  */
 }
 
-/*  */
+/* Creo due classi per i diversi colori del box sconto  */
+.green{
+  background-color: green;
+}
+
+.red{
+  background-color: red;
+}
 
 /* Creo un div con z-index 1  */
 .addPref{
