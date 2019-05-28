@@ -25,7 +25,7 @@ body{
   display: inline-block;
   height: 100%;
   width: 100%;
-  z-index: 1;
+  z-index: 2 ;
 }
 
 .boxOb img:hover{
@@ -38,9 +38,10 @@ body{
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 3;  /* Lo z-Index mi tiene lo sconto sempre visualizzato  */
 }
 
-/* Creo un div nascosto  */
+/* Creo un div con z-index 1  */
 .addPref{
   width: 20%;
   height: 10%;
@@ -48,5 +49,5 @@ body{
   position: absolute;
   bottom: 0;
   left: 40%;
-  z-index: 0;
+  z-index: 1;
 }
