@@ -25,8 +25,12 @@ body{
   display: inline-block;
   height: 100%;
   width: 100%;
+  z-index: 1;
 }
 
+.boxOb img:hover{
+  z-index: 0;
+}
 
 /* Nipote */
 .boxSconto{
@@ -44,8 +48,5 @@ body{
   position: absolute;
   bottom: 0;
   left: 40%;
-}
-
-.addPref:hover{
-  display: none;
+  z-index: 0;
 }
