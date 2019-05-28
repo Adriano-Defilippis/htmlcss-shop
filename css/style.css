@@ -1,3 +1,8 @@
+body{
+  background-color: lightgrey;
+}
+
+/* Definisco il box antenato che contiene gli elementi */
 .listOb{
   width: 60%;
   height: 400px;
@@ -6,18 +11,25 @@
 
 }
 
-/* Css per dare forma e posizione ai contenitori del prodotto  */
+/* Css per dare forma e posizione ai contenitori del prodotto (figlio)  */
 .boxOb{
   display: inline-block;
-  position: relative;
+  position: relative;     /* Serve per dare il riferimento per la posizione del box dello scont  */
   width: 32%;
   height: 100%;
-  background-color: #EDEDED;
-
 }
 
+/* Vado ad adattare l'immagine al suo contenitore padre */
+.boxOb img{
+  display: inline;
+  height: 100%;
+  width: 100%;
+}
+
+/* Nipote */
 .boxSconto{
   background-color: green;
   position: absolute;
   right: 0;
+  top: 0;
 }
