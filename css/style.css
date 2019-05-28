@@ -9,6 +9,7 @@
 /* Css per dare forma e posizione ai contenitori del prodotto  */
 .boxOb{
   display: inline-block;
+  position: relative;
   width: 32%;
   height: 100%;
   background-color: #EDEDED;
@@ -17,4 +18,6 @@
 
 .boxSconto{
   background-color: green;
+  position: absolute;
+  right: 0;
 }
