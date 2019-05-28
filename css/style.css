@@ -41,11 +41,12 @@ body{
   z-index: 3;  /* Lo z-Index mi tiene lo sconto sempre visualizzato  */
 }
 
+/*  */
+
 /* Creo un div con z-index 1  */
 .addPref{
   width: 20%;
   height: 10%;
-  background-color: red;
   position: absolute;
   bottom: 0;
   left: 40%;
